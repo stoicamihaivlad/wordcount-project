@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: font-family: 'Roboto', sans-serif;
+    line-height: 1.4rem;
+}
+
+a {
+   text-decoration: none; 
+}
+
+p {
+    margin: 0.75rem 0;
+}
+
+/* Utility Classes */
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+}
+
+.list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+.bg-dark {
+    background: #333;
+    color: #fff;
+}
+.bg-primary {
+    background: #d11515;
+    color: #fff;
+}
+
+
+.bg-light {
+    background: #fff;
+    color: #333;
+}
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow:hidden;
+}
+
+.text-primary {
+    color: #d11515;
+}
+
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.py-1 {
+    padding: 1.5rem 0;
+}
+.py-2 {
+    padding: 2rem 0;
+}
+
+.py-3 {
+    padding: 3rem 0;
+}
+.p-1 {
+    padding: 1.5rem;
+}
+.p-2 {
+    padding: 2rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.lead {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    color: #fff;
+    background: #d11515;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background: 7ab450;
+}
+
+.btn-dark {
+    background: #333;
+    color: #fff;
+}
+/* Navbar*/
+
+#navbar {
+    position: sticky;
+    top: 0;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    display: flex;
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+    color: #fff;
+}
+
+#navbar ul li a:hover {
+    border-radius: 5px;
+    background: #d11515;
+}
+
+/* Showcase */
+#showcase {
+    background: #000  url(../img/7K0A4973-2-1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 0 2rem;
+    /*Overlay */
+    position: absolute;
+    top: 77px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+/* Section:What we do */
+
+#what .items {
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i {
+    background-color: #d11515;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+/* Section Who */
+
+#who {
+    display: flex;
+}
+
+#who div {
+    flex: 1;
+}
+
+#who .who-img {
+    background: url('../img/unnamed.jpg') no-repeat center center/cover;
+}
+
+/* Section Clients */
+
+#clients .items {
+    display: flex;
+}
+
+#clients .items img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+/* Section Contact  */
+
+#contact {
+    display: flex;
+}
+
+#contact .map, 
+#contact .contact-form {
+    flex: 1;
+}
+
+#contact .contact-form .form-group {
+    margin: 0.75rem;
+}
+
+#contact .contact-form label {
+    display: block;
+}
+
+#contact .contact-form input[type='text'],
+#contact .contact-form input[type='email'],
+#contact .contact-form textarea  {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+#contact .contact-form input[type='submit'] {
+    margin-left: 0.75rem;
+}
+
+{
+
+}
